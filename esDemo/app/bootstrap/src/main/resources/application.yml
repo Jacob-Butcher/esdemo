@@ -1,7 +1,0 @@
-# provider/src/main/resources/application.yml
-
-
-rocketmq:
-  name-server: 192.168.1.3:9876  # 宿主机IP:9876
-  producer:
-    group: producer_group_demo      # 生产者组名（需唯一）
