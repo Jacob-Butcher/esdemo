@@ -1,6 +1,5 @@
 package com.example.esDemo.controller;
 
-import com.example.esDemo.es.EsManager;
 import com.example.esDemo.model.AppResult;
 import com.example.esDemo.model.Product;
 import com.example.esDemo.model.User;
@@ -18,8 +17,6 @@ import java.util.List;
 @RequestMapping("/api/v1")
 public class UserController {
 
-    @Autowired
-    private EsManager esManager;
 
     @GetMapping(value = "/users")
     public AppResult<List<User>> getUserList(){
@@ -49,11 +46,6 @@ public class UserController {
         return AppResult.isSuccess(users);
     }
 
-    @GetMapping(value = "/products")
-    public AppResult<List<Product>> getProductList() throws Exception {
-        List<Product> list = esManager.searchByKeyword();
-        return AppResult.isSuccess(list);
-    }
 
     @GetMapping(value = "/users/{id}")
     public AppResult<User> getUserById(@PathVariable Long id) {

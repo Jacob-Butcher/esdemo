@@ -26,29 +26,13 @@
 		</dependency>
 
 		<!-- Dubbo + Nacos -->
-		<dependency>
-			<groupId>org.apache.dubbo</groupId>
-			<artifactId>dubbo-spring-boot-starter</artifactId>
-		</dependency>
 
-		<dependency>
-			<groupId>org.apache.rocketmq</groupId>
-			<artifactId>rocketmq-client</artifactId>
-		</dependency>
 
-		<dependency>
-			<groupId>dev.langchain4j</groupId>
-			<artifactId>langchain4j-open-ai-spring-boot-starter</artifactId>
-		</dependency>
 <!--		<dependency>-->
 <!--			<groupId>dev.langchain4j</groupId>-->
 <!--			<artifactId>langchain4j-hugging-face</artifactId>-->
 <!--			<version>0.24.0</version>-->
 <!--		</dependency>-->
-		<dependency>
-			<groupId>dev.langchain4j</groupId>
-			<artifactId>langchain4j-easy-rag</artifactId>
-		</dependency>
 	</dependencies>
 
 	<build>
