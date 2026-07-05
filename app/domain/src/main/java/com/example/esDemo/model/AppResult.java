@@ -28,6 +28,14 @@ public class AppResult <T>{
     public static <T> AppResult<T> isFail(String msg){
         return new AppResult<>(false, msg, "500");
     }
+    public boolean isSuccess() {
+        return isSuccess;
+    }
+
+    public void setSuccess(boolean success) {
+        this.isSuccess = success;
+    }
+
     public T getData() {
         return data;
     }

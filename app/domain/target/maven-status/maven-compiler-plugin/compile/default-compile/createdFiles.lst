@@ -1,5 +1,13 @@
-com/example/esDemo/constants/CommonConstant.class
-com/example/esDemo/model/Product.class
-com/example/esDemo/enums/RecognitionEnums.class
+com/example/esDemo/model/Document$DocumentBuilder.class
+com/example/esDemo/model/Document.class
 com/example/esDemo/model/AppResult.class
-com/example/esDemo/model/User.class
+com/example/esDemo/constants/CommonConstant.class
+com/example/esDemo/model/DocumentChunk.class
+com/example/esDemo/model/RAGResponse$RAGResponseBuilder.class
+com/example/esDemo/model/RAGResponse.class
+com/example/esDemo/model/RAGResponse$Source.class
+com/example/esDemo/model/RAGResponse$Source$SourceBuilder.class
+com/example/esDemo/enums/RecognitionEnums.class
+com/example/esDemo/model/RAGQuery.class
+com/example/esDemo/model/RAGQuery$RAGQueryBuilder.class
+com/example/esDemo/model/DocumentChunk$DocumentChunkBuilder.class
