@@ -23,12 +23,6 @@ pom.xml.versionsBackup
 .LSOverride
 ._*
 
-# ===== Claude =====
-.claude/
-
-# ===== OpenSpec =====
-openspec/
-
 # ===== Logs =====
 logs/
 *.log
