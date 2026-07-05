@@ -20,7 +20,7 @@ spring:
   # Spring AI 配置 — SiliconFlow (硅基流动) 统一提供 Chat + Embedding
   ai:
     openai:
-      api-key: ${SILICONFLOW_API_KEY:sk-yrljktvuunosmatclqcyascloedjhyjzdvukbxithmccuilr}
+      api-key: ${SILICONFLOW_API_KEY:sk-fsdfdsfdfdfsdfdsfdsfdsfsdf}
       base-url: ${SILICONFLOW_BASE_URL:https://api.siliconflow.cn}
       chat:
         options:
